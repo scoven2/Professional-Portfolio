@@ -1,0 +1,238 @@
+*
+
+body {
+    color:rgb(96, 124, 165);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex: 100%
+
+}
+
+header,
+footer {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #333;
+    color: rgb(115, 224, 228);
+}
+
+
+h1 {
+    margin: 5px -20px ;
+    color: #333;
+    background-color: rgb(115, 224, 228);
+    float: left;
+    padding: 10px 22px;
+}  
+
+.top {
+    height: 190px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/155297585-christmas-winter-concept-background-wooden-blue-bright-striped-horizontal-with-diagonal-stripes-with.jpg");
+}
+
+.top figcaption {
+    float: right;
+    color: #333;
+    background-color: rgb(115, 224, 228);
+    margin-top: 130px;
+    margin-right: 60px;
+    font-size: 30px;
+    padding: 5px;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    text-underline-position: under;
+
+}
+
+ul li {
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+}
+
+nav li {
+    float: right;
+    padding: 5px;
+    line-height: 10px;
+
+  }
+  
+li a {
+    display: block;
+    color: rgb(31, 154, 163);
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+
+li a:hover {
+    background-color: rgb(26, 26, 26);
+ }
+
+#aboutmetitle img {
+    width: 240px;
+    height: 320px;
+    align-self: center;
+}
+
+ #contactmelinks {
+     text-align: center;
+ }
+
+ .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 100px;
+    gap: 30px 30px;
+    grid-template-areas:
+      "aboutmetitle aboutmetext aboutmetext aboutmetext"
+      "projectstitle projectstext projectstext projectstext"
+      "contactmetitle contactmetext contactmetext contactmetext";
+  }
+  
+#aboutmetitle { grid-area: aboutmetitle; }
+#aboutmetext { grid-area: aboutmetext; }
+#projectstitle { grid-area: projectstitle; }
+#projectstext {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 10px;
+    grid-template-areas:
+      "project1 project1 project1"
+      "project2 project3 project4";
+
+    grid-area: projectstext;  }
+#project1 { 
+    grid-area: project1;
+     }
+#project2 { 
+    grid-area: project2;
+     }
+#project3 { 
+    grid-area: project3;
+    }
+#project4 { 
+    grid-area: project4;
+     }
+#contactmetitle {
+     grid-area: contactmetitle;
+     max-height: 50px; }
+
+#contactmetext { 
+    grid-area: contactmetext;
+    max-height: 50px; 
+}
+
+#project1,
+#aboutmetext {
+    font-size: 30px;
+    color: rgb(96, 124, 165);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    border: 5px solid rgb(71, 147, 150);
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 10%;
+    width: 98%;
+    min-width: 175px;
+}
+
+#project1 a img,
+#project2 a img,
+#project3 a img,
+#project4 a img {
+    max-height: 200px;
+    width: auto;
+    font-size: 30px;
+    color: rgb(96, 124, 165);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;   
+    align-items: center;
+    justify-content: space-evenly;   
+    width: 100%;
+    min-width: 175px;
+    opacity: .8;  
+}
+
+#project1 a img:hover,
+#project2 a img:hover,
+#project3 a img:hover,
+#project4 a img:hover {
+    opacity: 1;
+}
+
+#project1 a,
+#project2 a,
+#project3 a,
+#project4 a{
+    text-decoration: none;
+    
+}
+#project2,
+#project3,
+#project4 {
+    font-size: 30px;
+    color: rgb(96, 124, 165);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    border: 5px solid rgb(71, 147, 150);
+    align-items: center;
+    justify-content: space-evenly;   
+    width: 94%;
+    min-width: 175px;
+    text-decoration: none;
+}
+
+
+
+
+#aboutmetitle,
+#projectstitle,
+#contactmetitle {
+    display: flex;
+    height: 400px;
+    width: 100%;
+    justify-content: right;
+    align-items: right;
+    border-right: 5px solid rgb(0, 0, 0);
+    padding-right: 10px;
+    flex-direction: column;
+    text-align: right;
+    font-size: 200%;
+}
+
+#contactmetitle {
+    height: 100px;
+}
+
+
+
+ 
+#contactmelinks a {
+    color: pink;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    text-underline-position: under;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    display: block;
+    color: rgb(71, 147, 150);
+    text-align: center;
+    padding: 14px 16px;
+
+}
+    
+
+footer {
+    text-align: center;
+}
