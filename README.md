@@ -1,8 +1,9 @@
 # Professional-Portfolio
 
 ## Description
+motivation, problem, why build it, what did i learn
 
-When being faced with copying the image of a website and being told to mimic it as accuratley as possible with CSS I knew the posibilities were endless. I was motivated with recreating the look of this site as it is something I am very interested in. User experience and how a site looks visually is one of the most important things when being a consumer. With those thoughts in mind the motivation was already there. I built this project to show case that not only can I recreate and mimic a website presented to me but I can do it with the motivation and determination that is necessary when being a web developer. I learned that there are so many ways to get to the same destination that it really is what YOU make it. There is no right or wrong in terms of creating a good visually pleasing website just as long as you know how you want to get there, it is possible. While it may look simple on the exterior the complexity of web development is far from simple.
+Starting in my web dev career I need a website my clients can use. I wanted it to to be easy to access and use, and appeal to many different people. I really struggled gitting the images to line up in my different grid space. despite that I was able to create images that would fit the space and be able to dynamically change with the use. I learned how to be more patient with myself and also how many different resources there are to look for. Even though it can be difficult, with so many places to look, and people to reach out to, I know I will continue to succeed as a web dev.
 
 [Live link](https://scoven2.github.io/Professional-Portfolio/)
 
