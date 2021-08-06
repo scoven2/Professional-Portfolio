@@ -1,10 +1,12 @@
-*
-
-body {
-    color:rgb(96, 124, 165);
+* body {
+    color: rgb(96, 124, 165);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    flex: 100%
+    flex: 100%;
+    line-height: 1.5;
+}
 
+a:link {
+    text-decoration: none;
 }
 
 header,
@@ -15,14 +17,13 @@ footer {
     color: rgb(115, 224, 228);
 }
 
-
 h1 {
-    margin: 5px -20px ;
+    margin: 5px -20px;
     color: #333;
     background-color: rgb(115, 224, 228);
     float: left;
     padding: 10px 22px;
-}  
+}
 
 .top {
     height: 190px;
@@ -41,15 +42,11 @@ h1 {
     padding: 5px;
 }
 
-
-
-
 ul {
     list-style-type: none;
     margin: 0;
     overflow: hidden;
     text-underline-position: under;
-
 }
 
 ul li {
@@ -61,20 +58,18 @@ nav li {
     float: right;
     padding: 5px;
     line-height: 10px;
+}
 
-  }
-  
 li a {
     display: block;
     color: rgb(31, 154, 163);
     text-align: center;
     padding: 14px 16px;
-  }
-  
+}
 
 li a:hover {
     background-color: rgb(26, 26, 26);
- }
+}
 
 #aboutmetitle img {
     width: 240px;
@@ -82,67 +77,77 @@ li a:hover {
     align-self: center;
 }
 
- #contactmelinks {
-     text-align: center;
- }
+#contactmelinks {
+    text-align: center;
+}
 
- .grid-container {
+.grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 100px;
     gap: 30px 30px;
-    grid-template-areas:
-      "aboutmetitle aboutmetext aboutmetext aboutmetext"
-      "projectstitle projectstext projectstext projectstext"
-      "contactmetitle contactmetext contactmetext contactmetext";
-  }
-  
-#aboutmetitle { grid-area: aboutmetitle; }
-#aboutmetext { grid-area: aboutmetext; }
-#projectstitle { grid-area: projectstitle; }
+    grid-template-areas: "aboutmetitle aboutmetext aboutmetext aboutmetext" "projectstitle projectstext projectstext projectstext" "contactmetitle contactmetext contactmetext contactmetext";
+}
+
+#aboutmetext {
+    grid-area: aboutmetext;
+}
+
+#projectstitle {
+    grid-area: projectstitle;
+}
+
 #projectstext {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 10px 10px;
-    grid-template-areas:
-      "project1 project1 project1"
-      "project2 project3 project4";
+    grid-template-areas: "project1 project1 project1" "project2 project3 project4";
+    grid-area: projectstext;
+}
 
-    grid-area: projectstext;  }
-#project1 { 
+#project1 {
     grid-area: project1;
-     }
-#project2 { 
-    grid-area: project2;
-     }
-#project3 { 
-    grid-area: project3;
-    }
-#project4 { 
-    grid-area: project4;
-     }
-#contactmetitle {
-     grid-area: contactmetitle;
-     max-height: 50px; }
+}
 
-#contactmetext { 
+#project2 {
+    grid-area: project2;
+}
+
+#project3 {
+    grid-area: project3;
+}
+
+#project4 {
+    grid-area: project4;
+}
+
+#contactmetitle {
+    grid-area: contactmetitle;
+    max-height: 50px;
+}
+
+#contactmetext {
     grid-area: contactmetext;
-    max-height: 50px; 
+    max-height: 50px;
 }
 
 #project1,
 #aboutmetext {
-    font-size: 30px;
+    font-size: 20px;
     color: rgb(96, 124, 165);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
     border: 5px solid rgb(71, 147, 150);
     align-items: center;
     justify-content: space-evenly;
     margin-right: 10%;
     width: 98%;
     min-width: 175px;
+}
+
+#aboutmetext {
+    display: flex;
+    padding: 5px;
 }
 
 #project1 a img,
@@ -154,12 +159,12 @@ li a:hover {
     font-size: 30px;
     color: rgb(96, 124, 165);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;   
+    display: flex;
     align-items: center;
-    justify-content: space-evenly;   
+    justify-content: space-evenly;
     width: 100%;
     min-width: 175px;
-    opacity: .8;  
+    opacity: .8;
 }
 
 #project1 a img:hover,
@@ -172,10 +177,10 @@ li a:hover {
 #project1 a,
 #project2 a,
 #project3 a,
-#project4 a{
+#project4 a {
     text-decoration: none;
-    
 }
+
 #project2,
 #project3,
 #project4 {
@@ -185,25 +190,22 @@ li a:hover {
     display: flex;
     border: 5px solid rgb(71, 147, 150);
     align-items: center;
-    justify-content: space-evenly;   
+    justify-content: space-evenly;
     width: 94%;
     min-width: 175px;
     text-decoration: none;
 }
 
-
-
-
 #aboutmetitle,
+#aboutmetitle1,
 #projectstitle,
+#projectstitle1,
 #contactmetitle {
-    display: flex;
-    height: 400px;
-    width: 100%;
     justify-content: right;
     align-items: right;
     border-right: 5px solid rgb(0, 0, 0);
     padding-right: 10px;
+    padding-left: 10px;
     flex-direction: column;
     text-align: right;
     font-size: 200%;
@@ -213,9 +215,6 @@ li a:hover {
     height: 100px;
 }
 
-
-
- 
 #contactmelinks a {
     color: pink;
     float: left;
@@ -229,10 +228,46 @@ li a:hover {
     color: rgb(71, 147, 150);
     text-align: center;
     padding: 14px 16px;
-
 }
-    
 
 footer {
     text-align: center;
+}
+
+#aboutmetitle1 {
+    justify-content: right;
+    align-items: right;
+    border-right: 5px solid rgb(0, 0, 0);
+    padding-right: 10px;
+    flex-direction: column;
+    text-align: right;
+    font-size: 200%;
+}
+
+.column.is-three-quarters#aboutmetext1 {
+    font-size: 20px;
+    color: rgb(71, 147, 150);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    padding-right: 30px;
+}
+
+#aboutmetitle1 #profilepic {
+    display: none;
+}
+
+@media screen and (max-width: 1110px) {
+    #aboutmetitle #profilepic {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    #aboutmetitle img {
+        display: none;
+    }
+}
+
+.column.projecttext1 {
+    padding-right: 50px;
 }

@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/css.css">
     <title>Professional Portfolio</title>
@@ -33,48 +35,136 @@
             <figcaption>Professional Web Development</figcaption>
         </section>
 
+        <div class="columns is-mobile">
+            <div class="column is-one-quarter">
+                <article id="aboutmetitle1">About Me
+                    <img src="./assets/images/IMG_1103.jpg" id="profilepicture" alt="Profile Picture">
+                </article>
+            </div>
+            <div class="column is-three-quarters" id="aboutmetext1">My name is Scott Siegel and I am a professional web developer. With years of online media experience, and an in-depth knowledge of the ever changing digital landscape, I am able to create dynamic web applications to order. With my team of
+                sibling programmers, Steve and Sarah, we will take over the world.</div>
+        </div>
+
+        <div class="columns is-mobile">
+            <div class="column is-one-quarter">
+                <article id="projectstitle1">Projects
+                </article>
+            </div>
+            <div class="columns">
+                <div class="column projecttext1">
+                    <div class="card">
+                        <a href="https://how-was-it.herokuapp.com">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="./assets/images/howasit.png" alt="Screenshot from How was it">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title is-4">Ho[w]asit</p>
+                                    </div>
+                                </div>
+
+                                <div class="content">
+                                    Movie and TV reviews from people you trust.
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="columns is-mobile">
+                        <div class="column">
+                            <div class="card">
+                                <a href="https://scoven2.github.io/Group-Collaboration/" target="blank">
+                                    <div class="card-image">
+                                        <figure class="image is-4by3">
+                                            <img src="./assets/images/idk you pick.png" alt="Screenshot from i don't know you pick">
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-left">
+                                            </div>
+                                            <div class="media-content">
+                                                <p class="title is-4">IDK... You Pick!</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="content">
+                                            Next time you ask someone what they want to watch or eat and they respond, "IDK... You Pick!" you'll know exactly what they mean!
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="card">
+                                <a href="https://scoven2.github.io/Weather-Dashboard/">
+                                    <div class="card-image">
+                                        <figure class="image is-4by3">
+                                            <img src="./assets/images/weather.png" alt="Screenshot from weather dashboard">
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-left">
+
+                                            </div>
+                                            <div class="media-content">
+                                                <p class="title is-4">Weather Dashboard</p>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="content">
+                                            Sick of the hundreds of weather apps? Well here's another.
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="card">
+                                <a href="https://scoven2.github.io/Refractoring-Horiseon">
+                                    <div class="card-image">
+                                        <figure class="image is-4by3">
+                                            <img src="./assets/images/horiseon.png" alt="Screenshot from horizon">
+                                        </figure>
+                                    </div>
+                                    <div class="card-content">
+                                        <div class="media">
+                                            <div class="media-content">
+                                                <p class="title is-4">Refractoring-Horiseon</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="content">
+                                            A top of the line corporate website.
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <section class="grid-container">
-            <article id="aboutmetitle">About Me
-                <img src="./assets/images/IMG_1103.jpg" alt="">
-            </article>
-            <section id="aboutmetext">My name is Scott Siegel and I am a professional web developer. With years of online media experience, and an indepth knowledge of the ever changing tech landscape, I am able to create dynamic web applications to order. With my team of sibling
-                programmers, Steve and Sarah, we will take over the world.</section>
-            <article id="projectstitle">Projects</article>
-            <section id="projectstext">
-                <div id="project1">
-                    <a href="https://scoven2.github.io/Group-Collaboration/" target="blank">
-                        <img src="./assets/images/project1.jpg" alt=""></a>
-                </div>
-                <div id="project2">
-                    <a href="https://scoven2.github.io/Work-Day-Scheduler/index.html">
-                        <img src="./assets/images/project2.jpg" alt="">
-                    </a>
-                </div>
-                <div id="project3">
-                    <a href="https://scoven2.github.io/Refractoring-Horiseon">
-                        <img src="./assets/images/project3.jpg" alt="">
-                    </a>
-                </div>
-                <div id="project4">
-                    <a href="https://scoven2.github.io/Weather-Dashboard/">
-                        <img src="./assets/images/project4.jpg" alt="">
-                    </a>
-                </div>
-            </section>
             <article id="contactmetitle">Contact Me</article>
             <section id="contactmetext">
                 <ul id="contactmelinks">
                     <li id="dumb">
-                        <a href="mailto:scottmatthewsiegel@gmail.com">scottmatthewsiegel@gmail.com</a>
-                    </li>
-                    <li id="dumb">
-                        <a href="tel:7633504390">(763)350-4390</a>
+                        <a href="https://github.com/scoven2">github.com</a>
                     </li>
                     <li id="dumb">
                         <a href="https://www.linkedin.com/in/scottsiegel2">LinkedIn</a>
                     </li>
                     <li id="dumb">
-                        <a href="https://github.com/scoven2">github.com</a>
+                        <a href="tel:7633504390">(763)350-4390</a>
+                    </li>
+                    <li id="dumb">
+                        <a href="mailto:scottmatthewsiegel@gmail.com">scottmatthewsiegel@gmail.com</a>
                     </li>
                 </ul>
             </section>

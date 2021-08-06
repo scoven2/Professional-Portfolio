@@ -7,7 +7,7 @@ Starting in my web dev career I need a website my clients can use. I wanted it t
 
 [Live link](https://scoven2.github.io/Professional-Portfolio/)
 
-![screenshot](/assets/images/Screenshot.png/)
+![Video](/assets/images/Screenshot.png/)
 
 ## License:
 MIT License
